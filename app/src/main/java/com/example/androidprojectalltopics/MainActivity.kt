@@ -16,7 +16,7 @@ import com.example.androidprojectalltopics.ui.theme.AndroidProjectAllTopicsTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        enableEdgeToEdge()d
         setContent {
             AndroidProjectAllTopicsTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
